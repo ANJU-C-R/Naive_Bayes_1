@@ -71,24 +71,37 @@ This prediction model aims to:
 
 ---
 ### **5️⃣ Training the Naive Bayes Model**  
-- Use the Multinomial Naïve Bayes classifier, which is suitable for binary feature datasets. Train the model using the training data, where it learns the probability distribution of each binary feature in relation to different drug classifications. The model then applies Bayes' Theorem to predict the most probable drug type for new patient data.
+- The Multinomial Naïve Bayes algorithm is applied to train the model.It works well with categorical data and is commonly used for text classification but can be adapted for discrete numerical features.
+The model learns the probabilities of each feature contributing to the placement outcome.
+
 ---
 
 ### **6️⃣ Making Predictions on Test Data**  
-- Once the model is trained, use it to predict drug types for the test data. The model assigns probabilities to each drug type and selects the one with the highest probability.  
+- After training, the model predicts whether a candidate will be placed or not based on their academic and professional background.
+Each test sample is classified as either "Placed" (1) or "Not Placed" (0).
 
 ---
 
 ### **7️⃣ Evaluating Model Performance**  
 
 #### **Confusion Matrix Analysis** ,**Accuracy Score & Classification Report**  
--Assess the model’s performance using metrics such as accuracy, classification report (precision, recall, F1-score), and confusion matrix. These metrics help determine how well the model is classifying different drug types.
+-Assess the model’s performance using metrics such as accuracy, classification report (precision, recall, F1-score), and confusion matrix. These metrics help determine how well the model is predicting the placement status.
+
 - The **confusion matrix** provides insights into **true positives, false positives, true negatives, and false negatives**.  
 - The **accuracy score** is computed to evaluate the overall performance of the model.  
-- A **classification report** is generated, providing **precision, recall, and F1-score** for each milk quality.  
+- A **classification report** is generated, providing **precision, recall, and F1-score**.  
 
 ---
 
 ## **Conclusion**  
                                     
-In this project, we successfully implemented a **Naïve Bayes classifier** to predict drug types based on patient attributes such as **age, sex, blood pressure, cholesterol levels, and sodium-to-potassium ratio**.By using Bernoulli Naïve Bayes we effectively handled both numerical and categorical data, achieving a reliable classification model. The model’s performance was evaluated using accuracy, precision, recall, and a confusion matrix, demonstrating its effectiveness in drug classification. This project highlights the power of **machine learning in healthcare**, offering a data-driven approach to assist in medication recommendations. 
+In this project, we implemented a Multinomial Naïve Bayes classifier to predict job placement outcomes based on candidates' academic performance, work experience, and aptitude test scores. The model was trained on a dataset containing educational and professional attributes, with categorical features encoded and numerical features normalized to enhance predictive performance. After splitting the data into training and testing sets, the classifier was evaluated using accuracy, precision, recall, and F1-score.This machine learning approach provides valuable insights for recruiters and students, enabling data-driven hiring decisions and career planning.
+
+
+
+
+
+
+
+
+
