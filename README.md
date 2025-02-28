@@ -4,7 +4,7 @@ With the increasing demand for skilled professionals, organizations continuously
 
 To enhance the recruitment process, machine learning techniques can be leveraged to predict whether a candidate is likely to get placed based on their academic background, work experience, and other relevant attributes. This project aims to develop a predictive model using the Naïve Bayes algorithm, a probabilistic classifier based on Bayes’ theorem, to determine the likelihood of job placement for candidates in the given dataset.
 
-As a beginner-friendly machine learning problem, this project provides an excellent opportunity to explore different classification techniques, evaluate their performance, and understand key challenges in predictive modeling for healthcare applications. The approach taken in solving this problem will enhance our understanding of machine learning concepts and
+As a beginner-friendly machine learning problem, this project provides an excellent opportunity to explore different classification techniques, evaluate their performance, and understand key challenges in predictive modeling. The approach taken in solving this problem will enhance our understanding of machine learning concepts and
 can help educational institutions and recruiters gain insights into key factors influencing job placements, ultimately optimizing hiring decisions and career guidance strategies.
 
 
@@ -13,6 +13,7 @@ The Naïve Bayes algorithm is a probabilistic classification technique based on 
 
 ## Dataset Overview
 Dataset is taken from kaggle, which is uploaded as "drug_classification.csv",link:https:https://www.kaggle.com/datasets/ahsan81/job-placement-dataset
+
 The dataset contains various attributes related to a candidate’s academic background, work experience, and test scores, which influence their chances of getting placed.
 Here’s a structured table describing the dataset and its columns:  
   
