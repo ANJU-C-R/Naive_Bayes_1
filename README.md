@@ -1,38 +1,22 @@
-# Drug Classification Using Naive Bayes Algorithm
+# Predicting Job Placement Using Naïve Bayes Algorithm
 ## Introduction
-Medication prescription plays a crucial role in healthcare, ensuring patients receive the most effective treatment based on their medical conditions. However, selecting the appropriate drug for a patient depends on several factors, including age, sex, blood pressure levels, cholesterol levels, and the sodium-to-potassium ratio in the body. In this study, we leverage machine learning techniques to classify drugs based on these patient attributes, aiming to improve accuracy in medication recommendations.
+With the increasing demand for skilled professionals, organizations continuously seek efficient recruitment strategies to identify and hire the best candidates. Traditional hiring processes often involve manual screening of applicants based on their educational qualifications, work experience, and aptitude scores. However, these methods can be time-consuming and prone to human biases.
 
-The dataset used in this project contains information about different drug types and their corresponding patient profiles. The target variable is the drug type, while the feature set includes age, sex, blood pressure levels (BP), cholesterol levels, and sodium-to-potassium ratio. By applying classification algorithms, we aim to develop a predictive model that can assist in recommending the most suitable drug for a patient.
+To enhance the recruitment process, machine learning techniques can be leveraged to predict whether a candidate is likely to get placed based on their academic background, work experience, and other relevant attributes. This project aims to develop a predictive model using the Naïve Bayes algorithm, a probabilistic classifier based on Bayes’ theorem, to determine the likelihood of job placement for candidates in the given dataset.
 
-As a beginner-friendly machine learning problem, this project provides an excellent opportunity to explore different classification techniques, evaluate their performance, and understand key challenges in predictive modeling for healthcare applications. The approach taken in solving this problem will not only enhance our understanding of machine learning concepts but also contribute to the broader field of medical decision support systems.
+## Objective
+
+The goal of this project is to develop a Naïve Bayes classification model that can predict whether a candidate will be placed or not based on their academic background, work experience, and test performance. The model will be evaluated using standard performance metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness.
+
+As a beginner-friendly machine learning problem, this project provides an excellent opportunity to explore different classification techniques, evaluate their performance, and understand key challenges in predictive modeling for healthcare applications. The approach taken in solving this problem will enhance our understanding of machine learning concepts and
+can help educational institutions and recruiters gain insights into key factors influencing job placements, ultimately optimizing hiring decisions and career guidance strategies.
+
+
 ## Nayes Bayes Algorithm
 The Naïve Bayes algorithm is a probabilistic classification technique based on Bayes' Theorem. It assumes that the features are independent of each other, making it a "naïve" assumption. Despite this simplification, Naïve Bayes performs well in many real-world applications, especially in text classification, spam detection, and medical diagnosis. The algorithm calculates the probability of each class given the input features and selects the class with the highest probability. It is computationally efficient, works well with small datasets, and is particularly useful for categorical data.
 ## Dataset Overview
-Dataset is taken from kaggle, which is uploaded as "drug_classification.csv",link:https://www.kaggle.com/datasets/prathamtripathi/drug-classification
-The dataset used in this project contains information about different drug types and their corresponding patient profiles. The target variable is the drug type, while the feature set includes age, sex, blood pressure levels (BP), cholesterol levels, and sodium-to-potassium ratio. 
+Dataset is taken from kaggle, which is uploaded as "drug_classification.csv",link:https:https://www.kaggle.com/datasets/ahsan81/job-placement-dataset
 
-| **Column Name**        | **Description**                                              |
-|------------------------|--------------------------------------------------------------|
-| **Age**               | The age of the patient (numerical).                          |
-| **Sex**               | The gender of the patient (`Male` or `Female`).              |
-| **BP (Blood Pressure)** | The blood pressure level of the patient (`Low`, `Normal`, `High`). |
-| **Cholesterol**       | The cholesterol level of the patient (`Normal`, `High`).     |
-| **Na to Potassium Ratio** | The ratio of sodium to potassium in the blood (numerical). |
-| **Drug Type**         | The type of drug prescribed to the patient (target variable). |
-
-The target variable in this dataset is "Drug Type," which represents the medication prescribed based on patient attributes.Different types of drug are:
-
-**✔ DrugY**
-
-**✔ DrugX**
-
-**✔ DrugA**
-
-**✔ DrugC**
-
-**✔ DrugB**
-
-By applying classification algorithms, we aim to develop a predictive model that can assist in recommending the most suitable drug for a patient.
 ##  **Step-by-Step Implementation of Naive Bayes Algorithm**
 
 ### **1️⃣ Data Loading & Preprocessing**  
